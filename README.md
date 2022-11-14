@@ -68,15 +68,13 @@ For the following code snippet:
 ```
 @codemarker.droid_peek
 def allocateDriverToRide(city, drivers):
-
-	allowedDistance = getAllocationDistance(city)
-	if len(drivers) > 0:
-		closeDrivers = list(filter(lambda x: x['distance'] < allowedDistance, drivers))
-		if len(closeDrivers) > 0:
-		  closeDrivers = sorted(closeDrivers, key=lambda x: x['distance'])
-			return closeDrivers[0]
-
-	return None
+    allowedDistance = getAllocationDistance(city)
+    if len(drivers) > 0:
+        closeDrivers = list(filter(lambda x: x['distance'] < allowedDistance, drivers))
+        if len(closeDrivers) > 0:
+            closeDrivers = sorted(closeDrivers, key=lambda x: x['distance'])
+                return closeDrivers[0]
+    return None
 ```
 
 What you see in your Doctor Droid dashboard:

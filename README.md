@@ -6,10 +6,10 @@ Doctor Droid platform enables you to peek inside your code and get deep insights
 
 ## Install and setup
 ```
-# Install through pip <br>
-pip install pycodemarker <br>
+# Install through pip 
+pip install pycodemarker
 
-# Setup DoctorDroid Keys in your configuration <br>
+# Setup DoctorDroid Keys in your configuration
 DOCTOR_DROID_KEY = <drdroid_key>
 ```
 

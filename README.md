@@ -85,3 +85,5 @@ What you see in your Doctor Droid dashboard:
 ![](https://drdroid-public-content.s3.us-west-2.amazonaws.com/charts/Screenshot+2022-11-14+at+11.21.27+PM.png) <br>
 3. Allocation success count at city level. It can help you identify if some issue is happening at a city level even though overall it looks fine. 
 ![](https://drdroid-public-content.s3.us-west-2.amazonaws.com/charts/Screenshot+2022-11-14+at+11.20.07+PM.png) <br>
+
+For getting early access and live demo, leave a message at [here](https://drdroid.io/#section-cta) or reach us at [dipesh@drdroid.io](mailto:dipesh@drdroid.io).

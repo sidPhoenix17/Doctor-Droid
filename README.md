@@ -50,10 +50,11 @@ coupons_data = response.json()['coupons']
 ```
 
 What you see in your Doctor Droid dashboard:
-1. Response time for this API call against query parameters passed in the call. This can tell if you for certain cities the API call is performing slowly, which you can’t tell otherwise when looking at the overall response time metric. 
-![](https://drdroid-public-content.s3.us-west-2.amazonaws.com/charts/Screenshot+2022-11-14+at+8.31.43+PM.png) <br>
-2. Length of the json array of first level ‘coupons’ key in the api response. This, when seen in context of ‘city’ query parameter and put under the metrics bucket of user conversion, can reliably tell the root cause for conversion dropping for a certain city due to coupons not being returned for it. 
+
+1. Length of the json array of first level ‘coupons’ key in the api response. This, when seen in context of ‘city’ query parameter and put under the metrics bucket of user conversion, can reliably tell the root cause for conversion dropping for a certain city due to coupons not being returned for it. 
 ![](https://drdroid-public-content.s3.us-west-2.amazonaws.com/charts/Screenshot+2022-11-14+at+8.31.36+PM.png) <br>
+2. Response time aggregation basis contextual parameters / filters. 
+![](https://drdroid-public-content.s3.us-west-2.amazonaws.com/charts/Screenshot+2022-11-14+at+8.31.43+PM.png) <br>
 3. Coupons data returned for a certain user filtered by their ID (If this code snippet was within an authenticated API call from the user’s mobile app where she is logged in).
 
 ### Function calls
